@@ -13,7 +13,7 @@
       justify-content: center;
 
     }
-        ul{
+        .redes{
           position: relative;
           display: contents;
           transform-style: preserve-3d;
@@ -21,14 +21,14 @@
 
 
         }
-        ul li{
+        .redes .redes2{
           position: relative;
           list-style: none;
           width: 40px;
           height: 40px;
           margin: 0 10px;
         }
-        ul li::before{
+        .redes .redes2::before{
           content: '';
           position: absolute;
           bottom: 0;
@@ -39,7 +39,7 @@
           transform-origin: top;
           transform: skewX(-41deg);
         }
-        ul li::after{
+        .redes .redes2::after{
           content: '';
           position: absolute;
           top: 0;
@@ -50,7 +50,7 @@
           transform-origin: right;
           transform: skewY(-49deg);
         }
-        ul li span{
+        .redes .redes2 span{
           position: absolute;
           top: 0;
           left: 0;
@@ -64,41 +64,41 @@
           font-size: 30px !important;
           transition: 0.2s;
         }
-        ul li:hover span{
+        .redes .redes2:hover span{
           z-index: 1000;
           transition: 0.5s;
           color: #fff;
           box-shadow: -1px 1px 1px rgba(103, 18, 18, 0.05);
         }
-        ul li:hover span:nth-child(5){
+        .redes .redes2:hover span:nth-child(5){
           transform: translate(40px, -40px);
           opacity: 1;
         }
-        ul li:hover span:nth-child(4){
+        .redes .redes2:hover span:nth-child(4){
           transform: translate(30px, -30px);
           opacity: 0.8;
         }
-        ul li:hover span:nth-child(3){
+        .redes .redes2:hover span:nth-child(3){
           transform: translate(20px, -20px);
           opacity: 0.6;
         }
-        ul li:hover span:nth-child(2){
+        .redes .redes2:hover span:nth-child(2){
           transform: translate(10px, -10px);
           opacity: 0.4;
         }
-        ul li:hover span:nth-child(1){
+        .redes .redes2:hover span:nth-child(1){
           transform: translate(0px, 0px);
           opacity: 0.2;
         }
-        ul li:nth-child(1):hover span{
+        .redes .redes2:nth-child(1):hover span{
           background: #3b5999;
         }
     
-        ul li:nth-child(2):hover span{
+        .redes .redes2:nth-child(2):hover span{
           background: #25d366;
         }
     
-        ul li:nth-child(3):hover span{
+        .redes .redes2:nth-child(3):hover span{
           background: #e4405f;
         }
 
