@@ -4,6 +4,107 @@
  * Facebook: https://fb.com/fh5co
  * URL: https://freehtml5.co
  */
+ /* .ia{
+  height: 80px;
+   width: 80px;
+   border-radius: 50%;
+  
+ } */
+ .miv {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.miv {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: rgba(100, 213, 254, 0.902);;
+}
+
+.a {
+  position:relative;
+  width: 400px;
+  height: 450px;
+  margin: 20px;
+}
+
+.card .face {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  border-radius: 10px;
+  overflow: hidden;
+  transition: .5s;
+}
+
+.card .front {
+  transform: perspective(600px) rotateY(0deg);
+  box-shadow: 0 5px 10px #000;
+}
+
+.card .front img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.card .front h3 {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 45px;
+  line-height: 45px;
+  color: #fff;
+  background: rgba(0,0,0,.4);
+  text-align: center;
+}
+
+.card .back {
+  transform: perspective(600px) rotateY(180deg);
+  background: rgb(3, 35, 54);
+  padding: 15px;
+  color: #f3f3f3;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+  box-shadow: 0 5px 10px #000;
+}
+
+.card .back .link {
+  border-top: solid 1px #f3f3f3;
+  height: 50px;
+  line-height: 50px;
+}
+
+.card .back .link a {
+  color: #f3f3f3;
+}
+
+.card .back h3 {
+  font-size: 30px;
+  margin-top: 20px;
+  letter-spacing: 2px;
+}
+
+.card .back p {
+  letter-spacing: 1px;
+} 
+
+.card:hover .front {
+  transform: perspective(600px) rotateY(180deg);
+}
+
+.card:hover .back {
+  transform: perspective(600px) rotateY(360deg);
+}
 * {
   margin: 0;
   padding: 0; }
@@ -306,13 +407,13 @@ h2 {
     .contact-pop .content p {
       color: #584f53; }
     .contact-pop .content hr {
-      background-color: #e90e65;
+      background-color: #0138b0;
       width: 50px;
       height: 5px;
       border: none;
       margin-left: 0; }
     .contact-pop .content a {
-      background-color: #e90e65;
+      background-color: #0138b0;
       width: 158px;
       border-radius: 40px;
       color: #fefefe;
@@ -524,7 +625,7 @@ h2 {
 .recent {
   margin-top: 200px; }
   .recent h2 {
-    color: #fff; }
+    color: #000000; }
   .recent .owl-carousel .owl-stage-outer {
     padding-top: 30px;
     padding-bottom: 50px; }
@@ -533,18 +634,18 @@ h2 {
     position: absolute;
     top: -30px;
     right: 0;
-    color: #fff; }
+    color: #000000; }
     .recent .owl-carousel .owl-nav .owl-prev, .recent .owl-carousel .owl-nav .owl-next {
       height: 23px;
       width: 23px;
       text-align: center;
       padding: 0;
-      border: 1px solid #fff;
+      border: 1px solid #000000;
       border-radius: 50%;
       margin: 0 2px; }
       .recent .owl-carousel .owl-nav .owl-prev:hover, .recent .owl-carousel .owl-nav .owl-next:hover {
-        background: #fff;
-        color: #e90e65; }
+        background: rgb(0, 0, 0);
+        color: #ffffff; }
       .recent .owl-carousel .owl-nav .owl-prev span, .recent .owl-carousel .owl-nav .owl-next span {
         position: relative;
         display: block;
@@ -578,7 +679,7 @@ h2 {
         background: linear-gradient(rgba(0, 0, 0, 0.3),#559FE0);
         background: -ms-linear-gradient(rgba(0, 0, 0, 0.3),#559FE0); }
       .recent .card.active p, .recent .card:hover p {
-        color: #e587ac; }
+        color: #0138b0; }
   .recent .card-img-overlay {
     border-radius: 15px;
     background: -webkit-linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.85));
@@ -648,7 +749,7 @@ h2 {
         float: left !important; } }
 
 .activity {
-  background: #f3e7e8;
+  background: #ffffff;
   padding-bottom: 50px; }
   .activity .recent {
     margin-top: 0; }
@@ -782,7 +883,7 @@ h2 {
 
 .fh5co-insta-feed {
   padding: 100px 0;
-  background: #f7f0f1; }
+  background: #ffffff; }
   .fh5co-insta-feed .card {
     box-shadow: none; }
     .fh5co-insta-feed .card .card-img-overlay {
