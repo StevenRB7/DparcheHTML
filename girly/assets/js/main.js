@@ -1,4 +1,3 @@
-jQuery(document).ready(function(){
 
 
   jQuery(".owl-carousel2").owlCarousel({
@@ -48,6 +47,8 @@ jQuery(document).ready(function(){
     }
   }
   );
+
+  // estilo subir
 	var goToTop = function() {
 
 		$('.js-gotop').on('click', function(event){
@@ -73,6 +74,8 @@ jQuery(document).ready(function(){
 		});
 	
 	};
+
+
   jQuery(".owl-carousel4").owlCarousel({
     loop:true,
     center: false,
@@ -96,11 +99,17 @@ jQuery(document).ready(function(){
     }
   }
   );
-
+  $(function(){
+ 
+    goToTop();
+   
+  });
+  jQuery(document).ready(function(){
 
 
 });
 
 function myFunction(x) {
   x.classList.toggle("change");
+
 }

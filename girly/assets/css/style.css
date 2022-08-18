@@ -202,36 +202,14 @@
         .redes .redes2:nth-child(3):hover span{
           background: #e4405f;
         }
-        .gototop a {
-          width: 50px;
-          height: 50px;
-          display: table;
-          background: rgba(0, 0, 0, 0.5);
-          color: #fff;
-          text-align: center;
-          -webkit-border-radius: 4px;
-          -moz-border-radius: 4px;
-          -ms-border-radius: 4px;
-          border-radius: 4px;
-        }
-        .gototop a i {
-          height: 50px;
-          display: table-cell;
-          vertical-align: middle;
-        }
-        .gototop a:hover, .gototop a:active, .gototop a:focus {
-          text-decoration: none;
-          outline: none;
-        }
+       
         .icon-arrow-left:before {
           content: "\e094";
         }
         .icon-arrow-right:before {
           content: "\e095";
         }
-        .icon-arrow-up:before {
-          content: "\e096";
-        }
+    
         .icon-arrow-down:before {
           content: "\e097";
         }
