@@ -125,8 +125,8 @@
         .redes .redes2{
           position: relative;
           list-style: none;
-          width: 40px;
-          height: 40px;
+          width: 50px;
+          height: 50px;
           margin: 0 10px;
         }
         .redes .redes2::before{
@@ -350,7 +350,7 @@ h2 {
       top: 30%; } }
 
 .fh5co-two-img .card-img-overlay {
-  background: -webkit-linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8), black);
+  background: -webkit-linear-gradient(rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8), black);
   background: -moz-linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8), black);
   background: -o-linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8), black);
   background: -linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8), black); }
@@ -358,10 +358,9 @@ h2 {
 .contact-pop {
   margin-top: -300px; }
   .contact-pop .card-img-overlay {
-    background: -webkit-linear-gradient(rgba(0, 0, 0, 0.2), rgba(134, 133, 133, 0.6));
-    background: -moz-linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.6));
-    background: -o-linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.6));
-    background: -linear-linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.6));
+    background: -webkit-linear-gradient( #0c0c0c90,#fffefe1d);
+    background: -moz-linear-gradient( #25d366,#25d366);
+    background: -o-linear-gradient( #25d366,#25d366);
     border-radius: 15px 0 0 15px; }
   .contact-pop .row {
     max-width: 918px;
